@@ -41,6 +41,31 @@ namespace Services_L01
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int btn_bind = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int btn_get = 2130968578;
+			
+			// aapt resource value: 0x7f040001
+			public const int btn_unbind = 2130968577;
+			
+			// aapt resource value: 0x7f040003
+			public const int tv_message = 2130968579;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
